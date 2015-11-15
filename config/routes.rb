@@ -1,33 +1,10 @@
 HowTo::Application.routes.draw do
-  get "home/index"
 
-  get "challenges/index"
+  root to: 'home#index'
 
-  get "challenges/show"
-
-  get "challenges/new"
-
-  get "challenges/create"
-
-  get "challenges/edit"
-
-  get "challenges/update"
-
-  get "challenges/destroy"
-
-  get "users/index"
-
-  get "users/show"
-
-  get "users/new"
-
-  get "users/create"
-
-  get "users/update"
-
-  get "users/edit"
-
-  get "users/destroy"
+  resources :users do
+    resources :challenges
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
