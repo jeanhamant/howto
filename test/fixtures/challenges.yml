@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  category: MyString
+  description: MyText
+  total_time: 2015-11-15 03:36:02
+  step_id: 1
+
+two:
+  name: MyString
+  category: MyString
+  description: MyText
+  total_time: 2015-11-15 03:36:02
+  step_id: 1
