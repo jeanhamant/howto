@@ -1,4 +1,18 @@
 HowTo::Application.routes.draw do
+  get "challenges/index"
+
+  get "challenges/show"
+
+  get "challenges/new"
+
+  get "challenges/create"
+
+  get "challenges/edit"
+
+  get "challenges/update"
+
+  get "challenges/destroy"
+
   get "users/index"
 
   get "users/show"
