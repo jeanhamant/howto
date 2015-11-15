@@ -1,4 +1,6 @@
 HowTo::Application.routes.draw do
+  get "home/index"
+
   get "challenges/index"
 
   get "challenges/show"
